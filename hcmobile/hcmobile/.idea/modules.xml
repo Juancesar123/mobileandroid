@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations-core/ListViewAnimations-core.iml" filepath="$PROJECT_DIR$/ListViewAnimations-core/ListViewAnimations-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations-core-slh/ListViewAnimations-core-slh.iml" filepath="$PROJECT_DIR$/ListViewAnimations-core-slh/ListViewAnimations-core-slh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations-manipulation/ListViewAnimations-manipulation.iml" filepath="$PROJECT_DIR$/ListViewAnimations-manipulation/ListViewAnimations-manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullZoomView/PullZoomView.iml" filepath="$PROJECT_DIR$/PullZoomView/PullZoomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StickyListHeaders/StickyListHeaders.iml" filepath="$PROJECT_DIR$/StickyListHeaders/StickyListHeaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcmobile.iml" filepath="$PROJECT_DIR$/hcmobile.iml" />
+    </modules>
+  </component>
+</project>

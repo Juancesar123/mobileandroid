@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToZoomListView"><attr format="reference" name="listHeadView"/><attr format="boolean" name="isHeadParallax"/></declare-styleable>
+    <declare-styleable name="PullToZoomScrollView"><attr format="reference" name="scrollHeadView"/><attr format="reference" name="scrollContentView"/><attr format="reference" name="scrollZoomView"/></declare-styleable>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <string name="app_name">Library</string>
+</resources>

@@ -1,0 +1,30 @@
+int attr contentView 0x7f010000
+int attr headerView 0x7f010001
+int attr isHeadParallax 0x7f010002
+int attr isHeaderParallax 0x7f010003
+int attr listHeadView 0x7f010004
+int attr scrollContentView 0x7f010005
+int attr scrollHeadView 0x7f010006
+int attr scrollZoomView 0x7f010007
+int attr zoomView 0x7f010008
+int drawable ic_launcher 0x7f020000
+int drawable icon 0x7f020001
+int mipmap contextualhdpi 0x7f030000
+int mipmap contextualmdpi 0x7f030001
+int mipmap contextualxhdpi 0x7f030002
+int mipmap ic_launcher 0x7f030003
+int mipmap icon 0x7f030004
+int mipmap notification 0x7f030005
+int string app_name 0x7f040000
+int[] styleable PullToZoomListView { 0x7f010002, 0x7f010004 }
+int styleable PullToZoomListView_isHeadParallax 0
+int styleable PullToZoomListView_listHeadView 1
+int[] styleable PullToZoomScrollView { 0x7f010005, 0x7f010006, 0x7f010007 }
+int styleable PullToZoomScrollView_scrollContentView 0
+int styleable PullToZoomScrollView_scrollHeadView 1
+int styleable PullToZoomScrollView_scrollZoomView 2
+int[] styleable PullToZoomView { 0x7f010000, 0x7f010001, 0x7f010003, 0x7f010008 }
+int styleable PullToZoomView_contentView 0
+int styleable PullToZoomView_headerView 1
+int styleable PullToZoomView_isHeaderParallax 2
+int styleable PullToZoomView_zoomView 3

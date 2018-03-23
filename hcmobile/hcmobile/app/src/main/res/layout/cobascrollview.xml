@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9bb8fa"
+    android:orientation="vertical"
+    tools:context=".view.HCMobHomeLeftMenusActivity">
+
+    <com.garuda.hcmobile.font.RobotoTextView
+        android:id="@+id/list_item_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="\@John Doe"
+        android:textColor="@color/main_color_grey_600"
+        android:textSize="16sp"
+        app:typeface="robotoLight" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="383dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/helloWorld" />
+
+    <com.garuda.hcmobile.font.RobotoTextView
+        android:id="@+id/list_item_news_footer"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="2"
+        android:text="Garuda Indonesia"
+        android:textColor="@color/material_blue_grey_700"
+        android:textSize="14sp"
+        app:typeface="robotoRegular" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ac" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ac" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ac" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ac" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ac" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pramugari Garuda Indonesia"
+                android:textAlignment="center"
+                android:textColor="#02045c"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/aa" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/c" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/d" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="&#xA;    tools:context=&quot;.view.HCMobHomeLeftMenusActivity&quot;>&#xA;&#xA;    &lt;com.garuda.hcmobile.font.RobotoTextView&#xA;        android:id=&quot;@+id/list_item_news_title&quot;&#xA;        android:layout_width=&quot;wrap_content&quot;&#xA;        android:layout_height=&quot;wrap_content&quot;&#xA;        android:layout_marginBottom=&quot;6dp&quot;&#xA;        android:text=&quot;\@John Doe&quot;&#xA;        android:textColor=&quot;@color/main_color_grey_600&quot;&#xA;        android:textSize=&quot;16sp&quot;&#xA;        app:typeface=&quot;robotoLight&quot; />&#xA;&#xA;    &lt;WebView&#xA;        android:id=&quot;@+id/webView&quot;&#xA;        android:layout_width=&quot;383dp&quot;&#xA;        android:layout_height=&quot;25dp&quot;&#xA;        android:layout_alignParentLeft=&quot;true&quot;&#xA;        android:layout_alignParentStart=&quot;true&quot;&#xA;        android:layout_below=&quot;@+id/helloWorld&quot; " />
+
+</LinearLayout>

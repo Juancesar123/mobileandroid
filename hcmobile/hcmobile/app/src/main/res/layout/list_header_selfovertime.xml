@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_ga_menus"
+    android:paddingLeft="0dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="8dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|left" >
+        <com.garuda.hcmobile.font.MaterialDesignIconsTextView
+            android:id="@+id/list_item_header_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingRight="4dp"
+            android:text="@string/material_icon_go_left"
+            android:textColor="@color/material_yellow_500"
+            android:textSize="24dp" />
+        <com.garuda.hcmobile.font.MaterialDesignIconsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/material_icon_date"
+            android:textColor="@color/material_yellow_500"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="24dp" />
+
+        <com.garuda.hcmobile.font.RobotoTextView
+            android:id="@+id/list_header_social_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="some"
+            android:textColor="@color/material_yellow_500"
+            android:textSize="18sp"
+            app:typeface="robotoLight" />
+
+        <com.garuda.hcmobile.font.MaterialDesignIconsTextView
+            android:id="@+id/list_item_header_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingLeft="4dp"
+            android:text="@string/material_icon_go_right"
+            android:textColor="@color/material_yellow_500"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <com.garuda.hcmobile.font.RobotoTextView
+            android:id="@+id/list_item_header_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_bg"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:text="@string/overtime_create"
+            app:typeface="robotoBold" />
+    </LinearLayout>
+
+</LinearLayout>

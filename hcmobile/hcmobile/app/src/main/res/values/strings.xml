@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">HCMobile</string>
+
+    <string name="cd_main_image">main image</string>
+    <string name="verify">VERIFY</string>
+    <string name="verifyotp">VERIFY OTP</string>
+    <string name="requestotp">REQUEST OTP</string>
+    <!--<string name="drawer_open">Open navigation drawer</string>-->
+    <!--<string name="drawer_close">Close navigation drawer</string>-->
+    <string name="register">REGISTER</string>
+    <string name="nopeg">Nopeg</string>
+    <string name="otpnum">OTP Number (6 number)</string>
+    <string name="clockinout_place">Area Clock In/Out (auto)</string>
+    <string name="clockinout_time">Time Clock In/Out (auto)</string>
+    <string name="dob">Tgl Lahir (YYYY-MM-DD)</string>
+    <string name="password">Password</string>
+    <string name="email_garuda">E-mail @garuda-indonesia.com</string>
+    <string name="reg_phone">Phone Number (use country code)</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="time_data_header">Day - DD.MM.YYYY</string>
+    <string name="time_data_schedule">Working Schedule</string>
+    <string name="time_data_realx">Clock In - Out</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="some">some</string>
+
+
+    <string name="leave_entl">Leave Use/Remn.</string>
+    <string name="cs_entl">CS Use/Remn.</string>
+    <string name="leave_entl_val">xx/xx</string>
+    <string name="year_val">YYYY</string>
+    <string name="leave_type">Leave Type</string>
+    <string name="leave_begda">Leave BegDa</string>
+    <string name="leave_endda">Leave EndDa</string>
+    <string name="leave_period">Leave Period</string>
+    <string name="leave_reason">Leave Reason</string>
+    <string name="leave_status">Leave Status</string>
+    <string name="leave_sup_note">Leave Note</string>
+    <string name="leave_create">Create Leave</string>
+    <string name="leave_dmy">DD.MM.YYYY</string>
+    <string name="dmy">DD.MM.YYYY</string>
+
+    <string name="manatt_create">Create Manual Attendance</string>
+    <string name="manatt_supreason">Sup Note</string>
+
+    <string name="overtime_create">Create Overtime</string>
+    <string name="overtime_plan">Plan</string>
+    <string name="overtime_approval">Approval Overtime</string>
+    <string name="overtime_approve">Approve</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="overtime_pay">Pay</string>
+    <string name="overtime_plan_start">Plan Start</string>
+    <string name="overtime_plan_end">Plan End</string>
+    <string name="overtime_approve_time">Approve Time</string>
+    <string name="overtime_finalpay_time">FinalPay Time</string>
+
+
+    <string name="status">Status</string>
+    <string name="reason">Reason</string>
+    <string name="date">Date</string>
+    <string name="propose">Propose</string>
+    <string name="dash_val">-</string>
+    <string name="time">HH:MM</string>
+    <string name="time_period">HH:MM - HH:MM</string>
+    <string name="info">Information</string>
+
+
+    <string name="clockinout_check">Check Area Validity</string>
+    <string name="clockinout_submit">Invalid Area Clock In/Out</string>
+    <string name="clockinout_header">Self Clock In/Out</string>
+
+    <string name="createOrder_datePicker_selectFutureDate">Please select today or future day</string>
+    <string name="createOrder_datePicker_selectPastDate">Please select day ot or after begin date</string>
+
+
+    <string name="sl_year">Tahun</string>
+
+    <!--<string name="drawer_open2">Open navigation drawer</string>-->
+    <!--<string name="drawer_close2">Close navigation drawer</string>-->
+
+
+    <string name="dxxx__op">Opemn1</string>
+    <string name="dxxx__cp">Close2</string>
+
+
+    <string name="leave_prompt">Choose a Leave Type</string>
+    <string-array name="leave_arrays">
+        <item>Cuti Tahunan</item>
+        <item>Cuti BIT</item>
+    </string-array>
+    <string-array name="leave_key_arrays">
+        <item>0100</item>
+        <item>0105</item>
+    </string-array>
+    <string name="fontello_logo">&#xe8ad;</string>
+    <string name="fontello_search">&#xea01;</string>
+    <string name="fontello_x_mark">&#xe887;</string>
+    <string name="fontello_x_mark_masked">&#xe885;</string>
+    <string name="fontello_microfon">&#xea18;</string>
+    <string name="fontello_user">&#xe800;</string>
+    <string name="fontello_password">&#xe9df;</string>
+    <string name="fontello_upload">&#xeb30;</string>
+    <string name="fontello_play">&#xea7d;</string>
+    <string name="fontello_heart_empty">&#xe9b5;</string>
+    <string name="fontello_heart_full">&#xe9b6;</string>
+    <string name="fontello_drag_and_drop">&#xe988;</string>
+
+    <!-- Material Design Icons -->
+    <string name="material_icon_account">&#xe800;</string>
+    <string name="material_icon_account_multiple">&#xe8dc;</string>
+    <string name="material_icon_bookmark">&#xe921;</string>
+    <string name="material_icon_bike">&#xe915;</string>
+    <string name="material_icon_box_full">&#xe86b;</string>
+    <string name="material_icon_clock">&#xe881;</string>
+    <string name="material_icon_check">&#xe867;</string>
+    <string name="material_icon_checked_full">&#xe86f;</string>
+    <string name="material_icon_check_empty">&#xe86a;</string>
+    <string name="material_icon_check_full">&#xe86e;</string>
+    <string name="material_icon_city">&#xe878;</string>
+    <string name="material_icon_cart">&#xe857;</string>
+    <string name="material_icon_chevron_down">&#xe874;</string>
+    <string name="material_icon_chevron_up">&#xe877;</string>
+    <string name="material_icon_date">&#xe848;</string>
+    <string name="material_icon_drink">&#xea08;</string>
+    <string name="material_icon_dollar">&#xe892;</string>
+    <string name="material_icon_gmail">&#xe99c;</string>
+    <string name="material_icon_email">&#xe936;</string>
+    <string name="material_icon_eat">&#xeac6;</string>
+    <string name="material_icon_friends">&#xe8d5;</string>
+    <string name="material_icon_flag">&#xe96a;</string>
+    <string name="material_icon_favorite">&#xe9b6;</string>
+    <string name="material_icon_go">&#xea04;</string>
+    <string name="material_icon_go_left">&#xe875;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+    <string name="material_icon_home_variant">&#xe9bd;</string>
+    <string name="material_icon_home">&#xe9be;</string>
+    <string name="material_icon_hotels">&#xeae3;</string>
+    <string name="material_icon_heart_outline">&#xe9b3;</string>
+    <string name="material_icon_calendar">&#xe849;</string>
+    <string name="material_icon_headphones">&#xe9b1;</string>
+    <string name="material_icon_android">&#xe85c;</string>
+    <string name="material_icon_human">&#xe9c5;</string>
+    <string name="material_icon_headline">&#xeb40;</string>
+    <string name="material_icon_image_box">&#xe952;</string>
+    <string name="material_icon_info">&#xe9d4;</string>
+    <string name="material_icon_info_box">&#xe896;</string>
+    <string name="material_icon_like">&#xeb03;</string>
+    <string name="material_icon_line_spacing">&#xe988;</string>
+    <string name="material_icon_note">&#xea23;</string>
+    <string name="material_icon_newspaper">&#xea2a;</string>
+    <string name="material_icon_message">&#xea12;</string>
+    <string name="material_icon_play">&#xe831;</string>
+    <string name="material_icon_play_single">&#xea7d;</string>
+    <string name="material_icon_play_square">&#xea7a;</string>
+    <string name="material_icon_play_circle">&#xea7b;</string>
+    <string name="material_icon_play_outline">&#xea7b;</string>
+    <string name="material_icon_pig">&#xea72;</string>
+    <string name="material_icon_password">&#xe9fa;</string>
+    <string name="material_icon_plus_box">&#xea7f;</string>
+    <string name="material_icon_party">&#xe937;</string>
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_star_outline">&#xeade;</string>
+    <string name="material_icon_star_half">&#xeadd;</string>
+    <string name="material_icon_star">&#xeadf;</string>
+    <string name="material_icon_share">&#xeac0;</string>
+    <string name="material_icon_skip_next">&#xeaca;</string>
+    <string name="material_icon_skip_previous">&#xeacb;</string>
+    <string name="material_icon_soundcloud">&#xead3;</string>
+    <string name="material_icon_statistics">&#xea87;</string>
+    <string name="material_icon_shop">&#xe858;</string>
+    <string name="material_icon_sleep">&#xe9c2;</string>
+    <string name="material_icon_settings">&#xeabe;</string>
+    <string name="material_icon_state">&#xeb62;</string>
+    <string name="material_icon_to_left">&#xe876;</string>
+    <string name="material_icon_video">&#xeb39;</string>
+    <string name="material_icon_undo">&#xeb2c;</string>
+    <string name="material_icon_unfold_more">&#xeb2f;</string>
+    <string name="material_icon_w_shop">&#xeb4f;</string>
+    <string name="material_icon_cloud_univ_first">&#xeb54;</string>
+    <string name="material_icon_cloud_univ_second">&#xeb5a;</string>
+    <string name="material_icon_cloud_univ_third">&#xeb55;</string>
+    <string name="material_icon_blur_off">&#xe829;</string>
+
+    <string name="material_icon_reject">&#xe883;</string>
+    <string name="material_icon_approve">&#xe86f;</string>
+    <string name="material_icon_pay">&#xe859;</string>
+
+    <string name="drawer_icon_news">&#xea2a;</string>
+    <string name="drawer_icon_info">&#xe9d4;</string>
+    <string name="drawer_icon_tms">&#xe881;</string>
+    <string name="drawer_icon_docs">&#xe94e;</string>
+
+    <string name="drawer_title_news">HC-News</string>
+    <string name="drawer_title_info">Info</string>
+    <string name="drawer_title_tms">TMS</string>
+    <string name="drawer_title_docs">Docs</string>
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ga_tab_content_background"
+    android:fillViewport="true">
+    <LinearLayout
+        android:id="@+id/form"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="22dp" >
+
+            <com.garuda.hcmobile.font.RobotoTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/transparent_button_selector"
+                android:gravity="center"
+                android:text="@string/overtime_create"
+                android:textColor="@color/color_ga_header"
+                android:textSize="34sp"
+                app:typeface="robotoBold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    style="@style/TextViewAppearance.Title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/date"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right" >
+
+                    <com.garuda.hcmobile.font.RobotoTextView
+                        android:id="@+id/tvovertime_date"
+                        style="@style/TextViewAppearance.Title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:gravity="right"
+                        android:text="@string/dmy"
+                        android:textColor="@color/abc_input_method_navigation_guard"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    style="@style/TextViewAppearance.Title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/overtime_plan_start"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textSize="16dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right" >
+
+                    <com.garuda.hcmobile.font.RobotoTextView
+                        android:id="@+id/tvovertime_begtime"
+                        style="@style/TextViewAppearance.Title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:gravity="right"
+                        android:text="@string/time"
+                        android:textColor="@color/abc_input_method_navigation_guard"
+                        android:textSize="16dp" />
+                    </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    style="@style/TextViewAppearance.Title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/overtime_plan_end"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right" >
+                <com.garuda.hcmobile.font.RobotoTextView
+                    android:id="@+id/tvovertime_endtime"
+                    style="@style/TextViewAppearance.Title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:gravity="right"
+                    android:text="@string/time"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textSize="16dp" />
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    style="@style/TextViewAppearance.Title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:text="@string/reason"
+                    android:textColor="@color/abc_input_method_navigation_guard"
+                    android:textSize="16dp" />
+
+                <com.garuda.hcmobile.view.component.FloatLabeledEditText
+                    android:id="@+id/leave_reason"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="1"
+                    app:fletFloatingHint="@string/reason"
+                    app:fletHintTextColor="@color/color_ga_header"
+                    app:fletSingleLine="true"
+                    app:fletTextBackground="@drawable/edit_text_background_accent"
+                    app:fletTextColor="@color/abc_input_method_navigation_guard" >
+                </com.garuda.hcmobile.view.component.FloatLabeledEditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="12dp"
+                android:gravity="right" >
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    android:id="@+id/rtvbtn_cancel"
+                    style="@style/ButtonStyle.RaisedEmpty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:background="@drawable/layout_bg"
+                    android:text="@string/cancel"
+                    android:textColor="@color/white"
+                    app:typeface="robotoMedium" />
+
+                <com.garuda.hcmobile.font.RobotoTextView
+                    android:id="@+id/rtvbtn_propose"
+                    style="@style/ButtonStyle.RaisedEmpty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:background="@drawable/layout_bg"
+                    android:minWidth="96dp"
+                    android:text="@string/propose"
+                    android:textColor="@color/white"
+                    app:typeface="robotoMedium" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

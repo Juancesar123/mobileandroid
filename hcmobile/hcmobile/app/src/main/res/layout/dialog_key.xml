@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_ga_header"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <com.garuda.hcmobile.font.RobotoTextView
+                android:id="@+id/dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Insert Your Key"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:typeface="robotoBlack" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/dialog_fkey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Key"
+                android:textColor="@color/background_material_dark"
+                android:inputType="textPassword">
+
+            </EditText>
+            <!--<EditText
+                android:id="@+id/dialog_fkey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/transparent"
+                android:backgroundTintMode="@android:color/transparent"
+                android:drawableBottom="@android:color/transparent"
+                android:inputType="textVisiblePassword"
+                android:padding="16dp"
+                android:textColor="@color/color_ga_header"
+                android:textColorHint="@color/color_ga_header"
+                android:textSize="14sp" >
+
+                <requestFocus />
+            </EditText>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <com.garuda.hcmobile.font.RobotoTextView
+                android:id="@+id/dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/layout_bg"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:padding="8dp"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+
+            <com.garuda.hcmobile.font.RobotoTextView
+                android:id="@+id/dialog_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/layout_bg"
+                android:gravity="center"
+                android:minWidth="64dp"
+                android:padding="8dp"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

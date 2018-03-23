@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <com.garuda.hcmobile.util.CustomTextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Hello abcd "
+        android:gravity="center"
+        android:id="@+id/text"
+        android:textSize="19sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="OK"
+            android:layout_marginEnd="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_reg_blue"
+            android:id="@+id/button"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_reg_blue"
+            android:id="@+id/cancelbutton"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

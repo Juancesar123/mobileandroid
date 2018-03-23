@@ -1,0 +1,15 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:17:11-56
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:17:57-115
+application
+ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:19:5-20:19
+	android:allowBackup
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\ListViewAnimations-core-slh\AndroidManifest.xml:19:18-44

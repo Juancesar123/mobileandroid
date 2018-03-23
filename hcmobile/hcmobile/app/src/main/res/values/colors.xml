@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_ga_header">#FF002561</color>
+    <color name="color_ga_selected_menu">#FF009EDB</color>
+    <color name="color_ga_menus">#FF0066B3</color>
+    <color name="color_ga_tab_header_text">#FFEA6520</color>
+    <color name="color_ga_tab_content_background">#FFDADADA</color>
+    <color name="color_ga_background_btn">#FFB12E16</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_header">#1853a3</color>
+    <color name="white">#ffffff</color>
+    <color name="white_15_percent">#26ffffff</color>
+    <color name="white_30_percent">#4Dffffff</color>
+    <color name="main_color_700">@color/material_purple_700</color>
+    <color name="main_color_300">@color/material_purple_300</color>
+    <color name="main_color_500">@color/hcm_blue_500</color>
+    <color name="main_color_100">@color/material_purple_100</color>
+    <color name="main_color_500_50_percent">#808f3e97</color>
+    <color name="main_color_600">@color/material_purple_600</color>
+    <color name="hcm_main_500">@color/hcm_blue_500</color>
+    <color name="hcm_menu">#07a0dc</color>
+    <color name="hcm_menu_select">#0065b3</color>
+    <color name="hcm_main_list_unpress">@color/hcm_blue_list_unpress</color>
+    <color name="hcm_main_list_press">@color/hcm_blue_list_press</color>
+    <color name="main_color_grey_100">@color/material_grey_100</color>
+    <color name="main_color_grey_300">@color/material_grey_300</color>
+    <color name="main_color_grey_400">@color/material_grey_400</color>
+    <color name="main_color_grey_500">@color/material_grey_500</color>
+    <color name="main_color_grey_600">@color/material_grey_600</color>
+    <color name="main_color_grey_700">@color/material_grey_700</color>
+    <color name="main_color_grey_800">@color/material_grey_800</color>
+</resources>

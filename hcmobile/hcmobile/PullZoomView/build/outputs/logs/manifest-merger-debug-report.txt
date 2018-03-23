@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:1:1-14:12
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:1:1-14:12
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:1:1-14:12
+	package
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:2:5-40
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:4:5-6:41
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:4:5-6:41
+INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:4:5-6:41
+	android:targetSdkVersion
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:6:9-38
+	android:minSdkVersion
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:5:9-35
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml
+		INJECTED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml
+application
+ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:8:5-12:19
+	android:label
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from D:\GARUDA\hcmobile\hcmobile\hcmobile\PullZoomView\AndroidManifest.xml:9:9-35

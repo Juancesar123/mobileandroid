@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="drawer_width_social">260dp</dimen>
+    <dimen name="drawer_width">300dp</dimen>
+
+</resources>
